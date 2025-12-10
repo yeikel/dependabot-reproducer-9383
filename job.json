@@ -1,0 +1,28 @@
+{
+  "job": {
+    "command": "update",
+    "credentials-metadata": [
+      {
+        "type": "git_source",
+        "host": "github.com"
+      }
+    ],
+    "debug": null,
+    "experiments": {
+      "proxy-cached": true,
+      "enable-enhanced-error-details-for-updater": true
+    },
+    "package-manager": "maven",
+    "proxy-log-response-body-on-auth-failure": true,
+    "source": {
+      "provider": "github",
+      "repo": "yeikel/dependabot-reproducer-9383",
+      "branch": "main",
+      "api-endpoint": "https://api.github.com/",
+      "hostname": "github.com",
+      "directories": [
+        "/"
+      ]
+    }
+  }
+}
